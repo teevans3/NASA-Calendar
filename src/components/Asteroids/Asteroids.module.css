@@ -1,0 +1,50 @@
+.AsteroidsContainer {
+  width: 100%;
+}
+
+.AsteroidsDiv {
+  width: 35%;
+  background-color: black;
+  float: right;
+  box-sizing: border-box;
+  border: 1px solid #fcfbfe;
+}
+
+.CloseDiv {
+  height: 2.5vw;
+  float: right;
+}
+.CloseBtn {
+  background-color: black;
+  width: 2.6vw;
+  border: none;
+}
+.CloseBtn:hover {
+  cursor: pointer;
+}
+.WindowClose {
+  background-color: black;
+  color: #fcfbfe;
+}
+
+.AsteroidsList {
+  list-style: none;
+  margin: 0;
+  padding: 4%;
+}
+
+.AsteroidsList li {
+  text-align: left;
+  margin-bottom: 2%;
+  font-size: 1.2vw;
+}
+
+.AsteroidsList li a {
+  text-decoration: none;
+  color: #fcfbfe;
+}
+
+.AsteroidsList li a:hover {
+  font-weight: bold;
+  color: #ba1e68;
+}

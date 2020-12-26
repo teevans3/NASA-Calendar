@@ -1,0 +1,45 @@
+.ErrorModal {
+  z-index: 30;
+  color: black;
+  position: absolute;
+  width: 80%;
+  height: 85%;
+  margin: auto;
+}
+
+.ErrorDiv {
+  background-color: #fcfbfe;
+  width: 50%;
+  margin: auto;
+  height: 10vw;
+  margin-top: 15vw;
+  z-index: 40;
+  box-sizing: border-box;
+  border: 1px solid red;
+  box-shadow: inset 0 0 2vw gray;
+}
+
+.MsgDiv {
+  padding: 5.5%;
+  font-size: 1vw;
+}
+
+.CloseDiv {
+  height: 2vw;
+}
+
+.CloseBtn {
+  border: none;
+  width: 6%;
+  height: 2vw;
+  float: right;
+  background: none;
+}
+
+.CloseBtn:hover {
+  cursor: pointer;
+}
+
+.WindowClose {
+  color: black;
+}

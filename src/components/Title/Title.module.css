@@ -1,0 +1,36 @@
+.Title {
+  width: 35%;
+  height: 4.4vw;
+  margin: 0 auto 0 auto;
+}
+
+.Title span {
+  font-size: 3vw;
+  margin: 0 8px 0 8px;
+}
+
+.Title button {
+  border: none;
+  background-color: black;
+  width: 5%;
+  height: 2vw;
+}
+
+.Title button:hover {
+  cursor: pointer;
+}
+
+.ArrowIcon {
+  color: #fcfbfe;
+}
+
+
+.ButtonPrev {
+  float: left;
+  margin-top: 3%;
+}
+
+.ButtonNext {
+  float: right;
+  margin-top: 3%;
+}
